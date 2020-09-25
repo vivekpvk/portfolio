@@ -54,6 +54,26 @@ svg.js-calendar-graph-svg {
     max-height: 350px;
 }
 
+li.btn-pinterest > a {
+    background-color: #e00707 !important;
+}
+
+li.btn-linkedin > a {
+    background-color: #518ec3 !important;
+}
+
+li.btn-instagram > a {
+    background-color: #ab2294 !important;
+}
+
+li.btn-facebook > a {
+    background-color: #1e83ff !important;
+}
+
+li.btn-twitter > a {
+    background-color: #17baea !important;
+}
+
 /* ---------------------------------
 1. PRIMARY STYLES
 --------------------------------- */
