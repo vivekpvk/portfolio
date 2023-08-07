@@ -109,7 +109,7 @@ $(function() {
     }
   });
 
-  bar.animate(1);
+  bar.animate(0.9);
 
   var bar = new ProgressBar.Circle(circleprog2, {
     strokeWidth: 7,
@@ -325,7 +325,7 @@ $(function() {
     slidesPerView: 3,
     spaceBetween: 30,
     speed: 1400,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     pagination: {
       el: '.swiper-pagination',
@@ -337,13 +337,13 @@ $(function() {
     },
     breakpoints: {
       1500: {
-        slidesPerView: 2,
+        slidesPerView: 3,
       },
       1200: {
-        slidesPerView: 2,
+        slidesPerView: 3,
       },
       992: {
-        slidesPerView: 1,
+        slidesPerView: 2,
       },
     },
   });
